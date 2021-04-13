@@ -1,8 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url("mystyle2.css");
+
 p{
 	font-family:Arial;
 	color:#BD0000;
 	font-size:20px;
+	}
+	
+body{
+	background-color:#FFEBFE;
 	}
