@@ -9,7 +9,7 @@
         font-size: 1em;
         font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
         text-align: justify;
-        margin-left: 100px;
+        margin-left: 10px;
     }
 
     h1,h2,h3{
@@ -19,7 +19,7 @@
         border-top: solid;
         border-top-color: #8E84E5;
         padding-top: 7px;
-        padding-left: 100px;
+        padding-left: 10px;
     }
 
     .important{
@@ -31,11 +31,31 @@
         padding: 20px;
     }
 
+    .important strong{
+        color: #f75cd8;
+    }
+
+    #body{
+        background-color: #f7bbc5;
+        background-image: url(file:///Users/Paola/Documents/Cursos/CSS/practice1/images/background.png);
+        background-repeat: repeat-y;
+        background-position: center top;
+        width: 650px;
+        margin: 0 auto;
+    }
+
+    h1+p{
+        color:#f75cd8;
+        font-size: 1,2em;
+        line-height: 140%;
+        margin-top: 20px;
+    }
+
 </style>
 </head>
 
-<body >
-<div id="banner"><img src="images/banner.png" width=40% height=40% alt="CSS">
+<body id="body">
+<div id="banner"><img src="images/banner.png" width=50% height=50% alt="CSS">
 </div>
 
 <h1>Web design with CSS</h1>
