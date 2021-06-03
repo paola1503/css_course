@@ -1,0 +1,47 @@
+body{
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+
+#content{
+	margin-left: 15px;
+	margin-top: 15px;
+	border: 1px dashed #999;
+	border-right: none;
+	border-bottom: none;
+}
+
+h1{
+	font: normal 2.4em Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	border-bottom: 1px dashed #999;
+	padding: 5px 0 5px 8px;
+	color: #14556b;
+}
+
+p{
+	font: 1.6em Georgia, "Times New Roman", Times, serif;
+	margin: 10px 8px;
+}
+
+.figure img{
+	border: 1px solid #666;
+	padding: 10px;
+}
+
+.figure{
+	float: right;
+	width: 222px;
+	margin: 15px 10px 5px 10px;
+}
+
+.figure p{
+	font: bold 1em Verdana, Geneva, sans-serif;
+	color: #333;
+	text-align: center;
+	background-color: #3f9;
+	border: 1px dashed #666;
+	padding: 5px;
+	margin: 10px 0 0 0;
+}
