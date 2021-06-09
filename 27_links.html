@@ -30,6 +30,27 @@ a:hover{
   margin-left: 10px;
 }
 
+#resources a{
+  border-bottom: none;
+  padding-right: 22px;
+}
+
+a[href^='https://']{
+  background: url(images/globe.png) no-repeat right top;
+}
+
+a[href$='.pdf']{
+  background: url(images/acrobat.png) no-repeat right top;
+}
+
+a[href$='.doc']{
+  background: url(images/word.png) no-repeat right top;
+}
+
+a[href$='.zip']{
+  background: url(images/zip.png) no-repeat right top;
+}
+
 </style>
 </head>
 
@@ -45,7 +66,7 @@ a:hover{
   <li><a href="template.doc">Template</a></li>
   <li><a href="graphics.zip">Graphics</a></li>
   <li><a href="https://paolapetrinut.com">My website</a></li>
-  <li><a href="http://www.google.com/">More links</a></li>
+  <li><a href="https://www.google.com/">More links</a></li>
 </ul>
 </div>
 <h3>Esse quam nulla</h3>
