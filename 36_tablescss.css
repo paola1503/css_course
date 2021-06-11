@@ -291,9 +291,6 @@ a:hover{
 	padding-left: 2px;
 }
 
-#footerWrapper{
-}
-
 #sidebar ul{
 	margin: 0 0 0 -4px;
 	padding: 0px;
@@ -365,6 +362,7 @@ a:hover{
 #sidebar li{
 	display: inline;
 }
+
 #sidebar a{
 	zoom: 1;
 }
