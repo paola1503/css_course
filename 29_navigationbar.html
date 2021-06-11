@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Navigation bar</title>
 
-<style type="text/css">
+<style>
 /* reset css */
 html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
  padding: 0;
@@ -29,9 +29,9 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  width: 185px;
-  border-bottom: 1px dashed #999;
-}
+  border-left: 1px dashed #999;
+  overflow: hidden;
+  }
 
 #bar a{
   color: #000;
@@ -39,8 +39,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border: 1px dashed #999;
-  border-bottom: none;
   padding: 7px 5px 7px 30px;
+  border-left: none;
   display: block;
   background-color: #e7e7e7;
   background-image: url(images/linkbackground.png);
@@ -53,17 +53,33 @@ body {
   background-color: #07f5f7;
   background-position: 3px 50%;
 }
+
+#home #homelink,
+#aboutme #aboutmelink,
+#services #serviceslink,
+#projects #projectslink,
+#faq #faqlink,
+#contactme #contactmelink{
+  background-color: #fff;
+  background-position: 97% 100%;
+  font-weight: bold;
+}
+
+#bar li{
+  float: left;
+  width: 16em;
+}
 </style>
 </head>
 
 <body id="home">
   <ul id="bar">
-    <li><a href="home.html">Home</a></li>
-    <li><a href="aboutme.html">About me</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="faq.html">FAQ</a></li>
-    <li><a href="contactme.html">Contact me</a></li>
+    <li><a href="29_navigationbar.html" id="homelink">Home</a></li>
+    <li><a href="30_navbar_aboutme.html" id="aboutmelink">About me</a></li>
+    <li><a href="31_navbar_services.html" id="serviceslink">Services</a></li>
+    <li><a href="32_navbar_projects.html" id="projectslink">Projects</a></li>
+    <li><a href="33_navbar_faq.html" id="faqlink">FAQ</a></li>
+    <li><a href="34_navbar_contactme.html" id="contactmelink">Contact me</a></li>
   </ul>
 </body>
 </html>
