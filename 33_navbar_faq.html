@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Navigation bar - FAQ</title>
+
+<style type="text/css">
+/* reset css */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/* end of reset */
+
+body {
+	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
+	padding: 20px;
+}
+
+#bar{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 185px;
+  border-bottom: 1px dashed #999;
+}
+
+#bar a{
+  color: #000;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px dashed #999;
+  border-bottom: none;
+  padding: 7px 5px 7px 30px;
+  display: block;
+  background-color: #e7e7e7;
+  background-image: url(images/linkbackground.png);
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+}
+
+#bar a:hover{
+  font-weight: bold;
+  background-color: #07f5f7;
+  background-position: 3px 50%;
+}
+
+#home #homelink,
+#aboutme #aboutmelink,
+#services #serviceslink,
+#projects #projectslink,
+#faq #faqlink,
+#contactme #contactmelink{
+  background-color: #fff;
+  background-position: 97% 100%;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body id="faq">
+  <ul id="bar">
+    <li><a href="29_navigationbar.html" id="homelink">Home</a></li>
+    <li><a href="30_navbar_aboutme.html" id="aboutmelink">About me</a></li>
+    <li><a href="31_navbar_services.html" id="serviceslink">Services</a></li>
+    <li><a href="32_navbar_projects.html" id="projectslink">Projects</a></li>
+    <li><a href="33_navbar_faq.html" id="faqlink">FAQ</a></li>
+    <li><a href="34_navbar_contactme.html" id="contactmelink">Contact me</a></li>
+  </ul>
+</body>
+</html>
