@@ -1,0 +1,227 @@
+/*********************/
+/* BASIC */
+/*********************/
+
+body{
+	font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+	margin: 0;
+	background-color: #FFFFFF;
+}
+
+p,h1,h2,h3,h4,h5,h5,ol,ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+br.clear{
+	height:1px;
+	clear:both;
+	line-height: 1px;
+	background-color: #00CC33;
+}
+
+/*********************/
+/* LAYOUT */
+/*********************/
+
+#main{
+	width: 760px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999999;
+}
+
+#body{
+	border-right: 1px solid #999999;
+	border-left: 1px solid #999999;
+	padding: 3px 3px 0 6px;
+	float: left;
+	width: 424px;
+}
+
+#banner{
+	background-image: url(images/forms/bg/banner_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	width: 759px;
+	border-bottom: 1px solid #999999;
+}
+
+#featuredcourses{
+	float: left;
+	width: 166px;
+	border-top: 10px solid #294E56;
+	margin-top: 3px;
+	background: url(images/forms/bg/featured_bg.jpg) repeat-x left top;
+	margin-left: 3px;
+	line-height: 95%;
+	margin-right: 3px;
+}
+
+/*********************/
+/* BANNER STYLES */
+/*********************/
+#background {
+	background-image: url(images/forms/bg/banner_flower.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+/* image replacement technique */
+#banner p.logo {
+	background: url(images/forms/logo.png) no-repeat left top;
+	height: 70px;
+	text-indent: -5000px;
+}
+
+#nav{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#nav li{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0;
+	float: left;
+}
+
+#nav a{
+	display: block;
+	font-size: 11px;
+	color: #D6ECAE;
+	text-decoration: none;
+	background-color: #294E56;
+	padding: 2px 2px 2px 3px;
+	width: 8em;
+	margin-left: 2px;
+	border-right: 1px solid #73AFB7;
+	border-bottom: 1px solid #73AFB7;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+#nav a:hover{
+	background: #73AFB7;
+	border-right: 1px solid #14556B;
+	border-bottom: 1px solid #14556B;
+	color: #FBEF99;
+}
+
+/*highlight "you are here" buttons*/
+#home #nav a#homeLink,
+#features #nav a#coursesLink{
+	background: #73AFB7;
+	border-right: 1px solid #14556B;
+	border-bottom: 1px solid #14556B;
+	color: #FBEF99;
+}
+
+/*********************/
+/* body SECTION STYLES */
+/*********************/
+#body h1{
+	color: #5F9794;
+	font: bold 24px "Century Gothic", "Gill Sans", Arial, sans-serif;
+}
+
+/*********************/
+/* FEATURED COURSES STYLES */
+/*********************/
+
+#featuredcourses h2{
+	font-size: 14px;
+}
+#featuredcourses a{
+	font-size: 12px;
+	display: block;
+	text-decoration: none;
+	color: #102536;
+	padding: 3px 5px;
+	border-bottom: 1px solid #14556B;
+}
+
+#featuredcourses .title{
+	font-weight: bold;
+	display: block;
+}
+
+#featuredcourses a:hover{
+	background-color: #5F9794;
+	color: #FBEF99
+}
+
+#featuredcourses ul{
+	list-style:none;
+}
+
+#featuredcourses li{
+	display: inline;
+}
+
+/*********************/
+/* PAGE SPECIFIC STYLES */
+/*********************/
+
+/* HOME */
+/* no left sidebar--stretch body entire distance */
+#home #body{
+	margin-left: 0;
+	width: 577px;
+}
+
+.section{
+	display: block;
+	font-weight: normal;
+	color: #D6ECAE;
+}
+
+.features{
+	margin-left: 10px;
+	border-top: 10px solid #FDD041;
+	clear: both;
+	border-bottom: 1px solid #FFF!important;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.features h2{
+	font-size: 18px;
+	color: #294E56;
+}
+
+.col2 #featuredcourses{
+	float: left;
+	margin-bottom: 10px;
+}
+
+.col2 #body{
+	float: right;
+	border-right: none;
+	width: 573px;
+}
+
+.col2 #body h1{
+	color: #333333;
+	border-bottom: 1px dashed #666;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.col2 .section{
+	display: inline;
+	color: #999999;
+}
+
+#body #subForm p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#body p.privacy{
+	color: #73AFB7;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	font-size: 0.85em;
+}
