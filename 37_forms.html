@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forms</title>
+<link rel="stylesheet" href="38_formscss.css">
+
+<style>
+  #subForm{
+    font-size: .8em;
+  }
+
+  #subForm .question{
+    float: left;
+    width: 230px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+
+  #submit{
+    margin-left: 240px;
+    background-color: #cbd893;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  #name, #email, #comments{
+    background-color: #fbef99;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .9em;
+    width: 300px;
+    margin-top: -3px;
+  }
+
+  #name:focus, #email:focus, #comments:focus, #refer:focus{
+    background-color: #fdd041;
+  }
+
+</style>
+</head>
+
+<body id="features" class="col2">
+<div id="main">
+  <div id="banner">
+    <div id="background"><p class="logo">Always Learning</p>
+      <div id="nav">
+        <ul>
+          <li><a href="index.html" id="homeLink">Home</a></li>
+          <li><a href="/courses/signup.html" id="coursesLink">Courses</a></li>
+          <li><a href="/experts/index.html" id="expertsLink">Experts</a></li>
+          <li><a href="/minicourses/index.html" id="minicoursesLink">Mini courses</a></li>
+          <li><a href="/faq/index.html" id="faqLink">FAQ</a></li>
+          <li><a href="/contact/index.html" id="contactLink">Contact us</a></li></ul>
+	<br class="clear"  />
+      </div>
+      <!-- end of nav -->
+    </div>
+    <!-- end of background -->
+  </div>
+  <!-- end of banner -->
+
+  <div id="body">
+    <h1 id="lead"><span class="section">Sign up - </span>Subscription form:</h1>
+    
+    <form id="subForm" name="subForm" method="post" action="">
+    <p><label for="name" class="question">Name </label>
+      <input type="text" name="name" id="name"/></p>
+	  <p><label for="email" class="question">E-mail address </label>
+      <input type="text" name="email" id="email"/></p>
+	  <p><span class="question">Level</span>
+	    <label>
+        <input name="level" type="radio" value="beginner"/>
+        Beginner</label>
+	    <label>
+	      <input name="nivel" type="radio" value="intermediate"/>
+	      Intermediate</label>
+	    <label>
+	      <input name="nivel" type="radio" value="advanced"/>
+	      Advanced</label>
+	  </p>
+
+	  <p>
+	    <label for="references" class="question">How have you heard from us? </label>
+	    <select name="refer" id="refer">
+	      <option value="null">Select one</option>
+	      <option value="1">Friends</option>
+	      <option value="2">Google search</option>
+	      <option value="3">Social media</option>
+	      <option value="4">Others</option>
+        </select>
+	  </p>
+
+	  <p>
+	    <label for="comments" class="question">Additional comments </label>
+        <textarea name="comments" cols="35" rows="4" id="comments"></textarea>
+	  </p>
+
+	  <p>
+	    <input type="submit" name="submit" id="submit" value="Sign up!"/>
+	  </p>
+    </form>
+
+	<br class="clear" />
+    <p class="privacy">We know your privacy is important; that's why your information will be protected against fraud. We comply with the GDPR law and don't share your data with third parties.</p>
+  </div>
+  <!-- end main -->
+
+  <div id="featuredcourses">
+    <ul>
+      <li><a href="#"><span class="title">How to write a book</span>Become a writer and publish your own books.</a></li>
+      <li><a href="#"><span class="title">Photography</span>Take beautiful photos using only your phone.</a></li>
+      <li><a href="#"><span class="title">Enneagram</span>Learn about the 9 types of personality.</a></li>
+      <li><a href="#"><span class="title">Interior design</span>Help others get the house of their dreams.</a></li>
+      <li><a href="#"><span class="title">Lorem Ipsum</span>Lorem ipsum dolor site amet.</a></li>
+      <li><a href="#"><span class="title">Dolor site amet</span>Lorem ipsum dolor site amet.</a></li>
+      <li><a href="#"><span class="title">Adipiscing elit</span>Lorem ipsum dolor site amet.</a></li>
+      <li><a href="#"><span class="title">Euismod tincidunt</span>Lorem ipsum dolor site amet.</a></li>
+    </ul>
+  </div>
+  <!-- end of featured courses -->
+</div>
+<!-- end of container -->
+</body>
+</html>
