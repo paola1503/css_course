@@ -29,6 +29,61 @@
     right: 60px;
     bottom: 5px;
   }
+
+  #main .hellokitty{
+    float: right;
+    width: 200px;
+    margin-left: 12px;
+    margin-bottom: 2px;
+    position: relative;
+  }
+
+  #main .hellokitty p{
+    background-color: #fff;
+    border: 1px dashed #666666;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+    width: 168px;
+    left: 10px;
+    bottom: 2px;
+    position: absolute;
+  }
+
+  #mainContent{
+    position: relative;
+    clear: both;
+  }
+
+  #sidebar{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 170px;
+  } 
+
+  #ads{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    width: 125px;
+  }
+
+  #main{
+    margin-left: 170px;
+    margin-right: 135px;
+    padding: 0 15px 15px 20px;
+    border: 1px solid #666666;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  #container{
+    position: relative;
+    width: 1300px;
+    margin: auto;
+  }
 </style>
 
 </head>
@@ -55,9 +110,12 @@
   
 <div id="mainContent">
   <div id="main">
-    <h1>This is the title of the website</h1>    
-	  <img src="images/position/hellokitty.jpg" alt="Hello Kitty" width="200" height="186" align="right"/>
+    <h1>This is the title of the website</h1>
+    
+    <div class="hellokitty">
+	  <img src="images/position/hellokitty.jpg" alt="Hello Kitty" width="200" height="186"/>
     <p>Yayy let's get started</p>
+    </div>
     
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
     <h2>Learning is such an adventure</h2>
