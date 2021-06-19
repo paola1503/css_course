@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mainNav, #sidebar, #footerNav{
+    display: none;
+}
+
+#banner, #mainContent, #footer, #main{
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#footerMain{
+    margin: 0;
+}
