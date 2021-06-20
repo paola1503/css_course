@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Child selectors</title>
+
+<style>
+    ul :first-child{
+        color: #00f;
+        font-weight: bold;
+    }
+
+    ul :last-child{
+        color: #f00;
+    }
+
+    ol :nth-child(3n+2){
+        color: #090;
+    }
+</style>
+</head>
+
+<body>
+    <ul>
+        <li>Apples</li>
+        <li>Lemons</li>
+        <li>Pears</li>
+        <li>Oranges</li>
+    </ul>
+
+    <ul>
+        <li>Carrots</li>
+        <li>Tomatoes</li>
+        <li>Cucumbers</li>
+        <li>Eggplants</li>
+    </ul>
+
+    <ol>
+        <li>Apples</li>
+        <li>Lemons</li>
+        <li>Pears</li>
+        <li>Oranges</li>
+        <li>Carrots</li>
+        <li>Tomatoes</li>
+        <li>Cucumbers</li>
+        <li>Eggplants</li>
+    </ol>
+</body>
+</html>
