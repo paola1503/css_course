@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Attribute selectors</title>
+
+<style>
+    a[href^="https://google.com"]{
+        color: red;
+        font-size: 24px;
+    }
+
+    a[href$=".pdf"]{
+        color: #60f;
+        font-size: 54px;
+    }
+</style>
+</head>
+
+<body>
+    <p><a href="example.xls">Go to the Excel document</a></p>
+    <p><a href="https://paolapetrinut.com">Go to my nutrition website</a></p>
+    <p><a href="https://google.com">Go to Google</a></p>
+    <p><a href="document.pdf">Go to the PDF document</a></p>
+</body>
+</html>
