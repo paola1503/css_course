@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Type selectors</title>
+
+<style>
+    #sidebar{
+        background-color: #cf9;
+        width: 350px;
+    }
+
+    #sidebar p:first-of-type{
+        color: #00f;
+        font-weight: bold;
+    }
+
+    #sidebar p:last-of-type{
+        color: #f00;
+        font-weight: bold;
+        border-bottom: dotted #03c 5px;
+    }
+
+    /*#sidebar p:nth-of-type(odd){
+        color: #f00;
+        font-weight: bold;
+        border-bottom: dotted #03c 5px;
+    }*/
+</style>
+</head>
+
+<body>
+    <div id="sidebar">
+        <ul>
+            <li>Apples</li>
+            <li>Lemons</li>
+            <li>Pears</li>
+            <li>Oranges</li>
+        </ul>
+
+        <br/>
+        <p>This is the first paragraph</p>
+        <p>This is the second paragraph</p>
+        <p>This is the third paragraph</p>
+        <p>This is the fourth paragraph</p>
+    </div>
+</body>
+</html>
