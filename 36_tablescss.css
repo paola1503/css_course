@@ -10,7 +10,7 @@ ul { margin-left: 1em; list-style:square; }
 q:before, q:after { content:''; }
 
 body{
-	background: #594013 url(images/tables/banner.png) repeat-x center top;
+	background: #594013 url(images/banner.png) repeat-x center top;
 	font-size: 62.5%;
 }
 
@@ -25,7 +25,7 @@ a:hover{
 }
 
 #banner{
-	background: #325C38 url(images/tables/banner.png) repeat-x center top;
+	background: #325C38 url(images/banner.png) repeat-x center top;
 	height: 95px;
 	width: 900px;
 	margin: 0 auto;
@@ -33,7 +33,7 @@ a:hover{
 }
 
 #main{
-	background: url(images/tables/bg_nav.png) repeat-x center bottom; 
+	background: url(images/bg_nav.png) repeat-x center bottom; 
   	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF; 
 }
@@ -58,7 +58,7 @@ a:hover{
 	text-decoration: none;
 	font: bold 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
 	padding: 5px 25px;
-	background-image: url(images/tables/bg_nav.png);
+	background-image: url(images/bg_nav.png);
 	background-repeat: repeat-x;
 	background-position: center bottom;
 	border-style: none;
@@ -104,7 +104,7 @@ a:hover{
 #search{
 	width: 100px;
 	font-size: 10px;
- 	background-image: url(images/tables/magnify.gif);
+ 	background-image: url(images/magnify.gif);
   	background-repeat:no-repeat;
   	background-position: right center;
 }
@@ -121,7 +121,7 @@ a:hover{
 
 #home #body{
 	height: 186px;
-	background: url(images/tables/home_bg_photo.jpg) no-repeat center top;
+	background: url(images/home_bg_photo.jpg) no-repeat center top;
 	padding-top: 150px;
 	position: relative;
 	border-style: none;
@@ -156,7 +156,7 @@ a:hover{
 }
 
 .callToAction{
-	background: #B2C09C url(images/tables/gear.png) no-repeat 99% -117px;
+	background: #B2C09C url(images/gear.png) no-repeat 99% -117px;
 	padding: 10px 30px 10px 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -256,7 +256,7 @@ a:hover{
 }
 
 .secondary #sidebar{
-	background: url(images/tables/sidebar_bg.png) no-repeat;
+	background: url(images/sidebar_bg.png) no-repeat;
 	padding: 35px 10px;
 	float: left;
 	width: 215px;
@@ -287,7 +287,7 @@ a:hover{
 .secondary #body h1{
 	font: italic 4em Baskerville, "Palatino Linotype", "Times New Roman", serif;
 	color: #46874D;
-	background: url(images/tables/underline.png) no-repeat 0px 88%;
+	background: url(images/underline.png) no-repeat 0px 88%;
 	padding-left: 2px;
 }
 
@@ -354,7 +354,7 @@ a:hover{
 }
 
 #sidebar .actions{
-  background: url(images/tables/leaf.jpg) no-repeat left top;
+  background: url(images/leaf.jpg) no-repeat left top;
 	padding-top: 145px;
 	margin-top: 5px;
 }
